@@ -212,6 +212,8 @@ git clone https://github.com/your-username/skill-bridge-academy.git
 
 index.html
 
+4.Run it in your browser
+
 # Future Enhancements
 
 🔐 User Login & Signup System

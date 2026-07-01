@@ -1,0 +1,113 @@
+/* ==========================
+   Skill Bridge Academy
+   Responsive CSS
+========================== */
+
+/* Tablets */
+
+@media (max-width:992px){
+
+.hero{
+flex-direction:column;
+text-align:center;
+}
+
+.hero-content{
+width:100%;
+margin-bottom:40px;
+}
+
+.hero-image{
+width:100%;
+}
+
+.navbar{
+flex-direction:column;
+}
+
+.nav-links{
+margin-top:20px;
+flex-wrap:wrap;
+justify-content:center;
+}
+
+.nav-links li{
+margin:10px;
+}
+
+}
+
+/* Mobile */
+
+@media (max-width:768px){
+
+.logo h2{
+font-size:24px;
+}
+
+.hero-content h1{
+font-size:34px;
+}
+
+.hero-content p{
+font-size:16px;
+}
+
+section{
+padding:40px 5%;
+}
+
+.course-container{
+grid-template-columns:1fr;
+}
+
+.card img{
+height:220px;
+}
+
+.btn{
+display:block;
+width:200px;
+margin:auto;
+text-align:center;
+}
+
+input,
+select,
+textarea,
+button{
+font-size:15px;
+}
+
+}
+
+/* Small Mobile */
+
+@media (max-width:480px){
+
+.nav-links{
+flex-direction:column;
+align-items:center;
+}
+
+.hero-content h1{
+font-size:28px;
+}
+
+.hero-content p{
+font-size:15px;
+}
+
+.logo h2{
+font-size:22px;
+}
+
+.card img{
+height:200px;
+}
+
+footer{
+font-size:14px;
+}
+
+}
